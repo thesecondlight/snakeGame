@@ -1,0 +1,38 @@
+.gameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0; 
+}
+.game{
+    display: flex;
+    align-items: flex-start;
+}
+.canvas{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 1px 10px black;
+    margin-right: 10px;
+}
+.operations{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+.score {
+    margin-bottom:15px
+}
+button{
+    margin-bottom: 10px;
+    height: 25px;
+    background-color: rgb(184, 183, 241);
+    border: none;
+    box-shadow: 0 1px 5px rgb(184, 183, 241);
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+button:active{
+    transform: scale(0.8);
+}
