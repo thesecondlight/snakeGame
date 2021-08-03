@@ -5,6 +5,8 @@
     flex-direction: column;
     height: 100vh;
     margin: 0; 
+    width: 750px;
+    position: absolute;
 }
 .game{
     display: flex;
