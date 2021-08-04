@@ -6,8 +6,6 @@ const size = 10;
 const row = canvas.height / size;
 const column = canvas.width / size;
 
-//
-let timer = null;
 //创建贪吃蛇
 let snake = new Snake(size, {
     canvas,
